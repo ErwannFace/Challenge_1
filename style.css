@@ -12,3 +12,12 @@ body {
 header {
 	background-color: #000;
 }
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
