@@ -1,3 +1,16 @@
+html {
+	width: 1400px;
+	height: 1010px;
+}
+
+header {
+	padding-left: 190px;
+	padding-right: 190px;
+	font-size: 15px;
+	width: 1020px;
+	height: 380px;
+}
+
 #currentPage a {
 	color: #CFA205;
 }
@@ -6,21 +19,27 @@
 	background-color: #000000;
 	color: #CFA205;
 	text-align: center;
+	height: 320px;
 }
 
 #headerSocial {
 	background-color: #E8E8E8;
+	height: 60px;
 }
 
 #headerSubTitle {
-	padding-bottom: 30px;
+	font-family: "Bitter";
+	font-weight: bold;
+	height: 60px;
 }
 
 #topMenu {
+	font-family: "Josefin Sans";
 	list-style: none;
-	padding-top: 10px;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 120px;
+	height: 40px;
 }
 
 .topMenuEntry a {
@@ -36,6 +55,6 @@
 }
 
 h1 {
-	padding-top: 50px;
-	padding-bottom: 30px;
+	font-family: "Josefin Sans";
+	font-size: 100px;
 }
