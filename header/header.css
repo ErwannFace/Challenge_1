@@ -8,15 +8,28 @@
 	background-color: #E8E8E8;
 }
 
+#headerSubTitle {
+	padding-bottom: 30px;
+}
+
 #topMenu {
 	list-style: none;
+	padding-top: 10px;
 }
 
 .topMenuEntry a {
+	float: left;
 	text-decoration: none;
 	color: #FFFFFF;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .topMenuEntry a:hover {
 	color: #CFA205;
+}
+
+h1 {
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
