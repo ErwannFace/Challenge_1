@@ -3,6 +3,20 @@
 	color: #CFA205;
 	text-align: center;
 }
+
 #headerSocial {
 	background-color: #E8E8E8;
+}
+
+#topMenu {
+	list-style: none;
+}
+
+.topMenuEntry a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.topMenuEntry a:hover {
+	color: #CFA205;
 }
