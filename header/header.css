@@ -1,6 +1,7 @@
 html {
 	width: 1400px;
 	height: 1010px;
+	background-image: url(images/bg.jpg);
 }
 
 header {
@@ -25,12 +26,23 @@ header {
 #headerSocial {
 	background-color: #E8E8E8;
 	height: 60px;
+	padding-left: 405px;
+	padding-right: 405px;
+}
+
+.headerSocialImage {
+	height: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 #headerSubTitle {
 	font-family: "Bitter";
 	font-weight: bold;
 	height: 60px;
+	margin-top: -40px;
 }
 
 #topMenu {
@@ -39,7 +51,6 @@ header {
 	padding-top: 20px;
 	padding-left: 120px;
 	padding-right: 120px;
-	height: 40px;
 }
 
 .topMenuEntry a {
@@ -55,6 +66,8 @@ header {
 }
 
 h1 {
+	background-color: none;
 	font-family: "Josefin Sans";
-	font-size: 100px;
+	font-size: 130px;
+	margin-top: 60px;
 }
