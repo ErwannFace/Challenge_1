@@ -1,0 +1,150 @@
+body {
+background-image: url("/home/tyjow/Projet/images/bg.jpg");
+background-size: 1910px 1796px;
+}
+
+
+div#header {
+height:320px;
+width:1020px;
+background-color: black;
+margin: auto;
+}
+
+div#container {
+height:1400px;
+width:1020px;
+background-color: white;
+margin: auto;
+}
+
+#barremenu {
+list-style-type: none; 
+margin: 0 auto;
+padding: 0;
+background-color: black;
+text-align: center;
+width:1020px;
+}
+
+#barremenu li {
+display: inline-block;
+margin: auto;
+}
+
+#barremenu li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 12px;
+text-decoration: none;
+font-family: "josefin Sans";
+}
+
+h1 {
+color: #cfa205;
+text-align: center;
+font-size: 133px;
+margin: 30px;
+font-family: "josefin Sans";
+font-weight: 300;
+}
+
+#soustext {
+margin: 0 auto;
+padding: 0;
+text-align: center;
+width:1020px;
+}
+
+#soustext li {
+display: inline;
+color: #cfa205;
+margin: 0 auto;
+padding: 0;
+}
+
+
+div#social {
+position: relative;
+text-align: center;
+margin: 0 auto;
+height:60px;
+width:1020px;
+background-color: #e8e8e8;
+}
+
+
+#soc {
+left: 40%;
+position: absolute;
+top: 10%;
+transform: translateY(10%);
+height: 60px;
+padding: 0;
+text-align: center;
+list-style-type: none;
+margin: 0 auto;
+}
+
+#soc li {
+height: 60px;
+text-align: center;
+display: inline-block;
+margin: auto;
+padding: 0;
+}
+
+#soc li a {
+height: 60px;
+display: block;
+margin: 0;
+padding: 0;
+text-align: center;
+text-decoration: none;
+}
+
+.pucebefore::before {
+content: "\2022";
+color: #cfa205;
+padding-right: 1px;
+font-size: 16px;
+font-weight: bold;
+margin-right: 2px;
+}
+
+.puceafter::after {
+content: "\2022";
+color: #cfa205;
+padding-left: 1px;
+font-size: 16px;
+font-weight: bold;
+margin-left: 2px;
+}
+
+section {
+margin: 0 auto;
+width: 900px;
+height: 90px;
+}
+
+p {
+color: #7a7a7a;
+font-family: "Bitter";
+font-weight: bold;
+text-align: center;
+}
+
+#space {
+width: 1020px;
+height: 60px;
+margin: 0 auto;
+}
+
+#secondspace {
+width: 900px;
+height: 60px;
+margin: 0 auto;
+border-bottom-style: solid;
+border-color: #e8e8e8;
+}

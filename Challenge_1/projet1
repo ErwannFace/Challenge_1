@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+	
+		<head>
+			<link rel="stylesheet" href="Stylemain.css" type="text/css">
+			<meta http-equiv="Content-Type" content="html/css; charset=utf-8"/>
+			<title>Create Pro</title>
+			<style>
+				.flaticon-facebook::before {
+					font-size: 30px;
+					color: #7a7a7a;
+				}
+				.flaticon-twitter::before {
+					font-size: 30px;
+					color: #7a7a7a;
+				}
+				.flaticon-google::before {
+					font-size: 30px;
+					color: #7a7a7a;
+				}
+				.flaticon-pinterest::before {
+					font-size: 30px;
+					color: #7a7a7a;
+				}
+				.flaticon-youtube::before {
+					font-size: 30px;
+					color: #7a7a7a;
+				} 
+			</style>
+		</head>
+			
+
+		<body>
+			<div id="header">
+				<ul id="barremenu">
+                        <li><a href="https://www.google.fr/"><strong>HOME</strong></a></li>
+						<li><a href="https://www.google.fr/"><strong>ABOUT THE TESTS</strong></a></li>
+                        <li><a href="https://www.google.fr/"><strong>BUY THEMES</strong></a></li>
+                        <li><a href="https://www.google.fr/"><strong>PAGE LAYOUTS</strong></a></li>
+                        <li><a href="https://www.google.fr/"><strong>CONTACT US</strong></a></li>
+				</ul>
+
+					<h1>CREATE PRO</h1>
+				<ul id="soustext">
+						<li><strong>PERSONAL</strong></li>
+						<li class="pucebefore puceafter"><strong>BUSINESS</strong></li>
+						<li><strong>ORGANIZATION</strong></li>
+				</ul>
+			</div>
+			<div id="social">
+				<ul id="soc">
+					<li><a href="https://fr-fr.facebook.com/"><i class="flaticon-facebook"></i></a></li>
+					<li><a href="https://twitter.com/?lang=fr"><i class="flaticon-twitter"></i></a></li>
+					<li><a href="https://plus.google.com/"><i class="flaticon-google"></i></a></li>
+					<li><a href="https://fr.pinterest.com/"><i class="flaticon-pinterest"></i></a></li>
+					<li><a href="https://www.youtube.com/?hl=fr&gl=FR"><i class="flaticon-youtube"></i></a></li>
+				</ul>
+			</div>
+	<div id="container">
+			<div id="space"></div>
+		<section>
+					<p>Make first impression count with a large headline & full-page background.</p>
+					<p>Create is super easy to use, works out-of-the-box and it's great for your personal, business or even organization site.</p>	
+
+
+		</section>
+			<div id="secondspace"></div>
+	</div>	
+		</body>
+
+	</html>
