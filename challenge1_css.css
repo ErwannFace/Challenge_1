@@ -1,5 +1,51 @@
 
-h1 {color:#cfa205;
-    text-align : center
+h1 { display: block;
+    color:#cfa205;
+    text-align : center;
+    vertical-align:middle;
+    background-color:black;
+    width:1020px;
+    height:320px;
+    background-position : center;
+}
+.haut1 {
+     background-color:black;
+     width:1020px;
+     height:60px;
+     padding:0;
+     margin:0;
+
+          }
+ul { padding:0;
+     margin:0;
+     list-style-type:none;
+     text-align : center;
+}
+li { display:inline;
+     text-align : center;
+     color : white;
+ }
+
+.titre {
+     background-color:black;
+     width:1020px;
+     height:320px;
+     background-position : center;
+
+}
+.haut2 {
+     background-color:black;
+     width:1020px;
+     height:60px;
+     background-position : center;
+     color :#cfa205;
+     text-align : center
+}
+.barre {
+     background-color:#e8e8e8;
+     width:1020px;
+     height:60px;
+     background-position : center;
+    
 }
 
