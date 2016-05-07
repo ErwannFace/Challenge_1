@@ -1,5 +1,24 @@
+.fond {background-image:url(/home/becca/CHALLENGE/Challenge_1/images/bg.jpg);
+      background-size : cover;
+      background-attachment:fixed;
+}
+
+.global {width:1020px;
+    height:1010px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.blanc {background-color:white;
+    width:1020px;
+    height:885px;
+    margin-left:auto;
+    margin-right:auto;
+}
 h1 {display: block;
+    line-height:320px;
     color:#cfa205;
+    font-size : 133px;    
     text-align : center;
     background-color:black;
     width:1020px;
@@ -7,6 +26,8 @@ h1 {display: block;
     padding:0;
     margin:0;
  }
+
+
 .haut1 {
      background-color:black;
      width:1020px;
@@ -19,72 +40,87 @@ ul { padding:0;
      margin:0;
      list-style-type:none;
      text-align : center;
+     line-height:60px
 }
 li { display:inline;
      text-align : center;
      color : white; 
      }
 
-.haut2 {
-     display: block;
-     background-color:black;
-     width:1020px;
-     height:60px;
-     background-position : center;
-     color :#cfa205;
-     text-align : center;
-     padding:0;
-     margin:0;
-}
-.barre {
-     background-color:#e8e8e8;
-     width:1020px;
-     height:60px;
-     background-position : center;
-    
-}
-.info {color:#7a7a7a;
-       text-align:center;
-       width:260px;
-       height:195px;
+.haut2 {color:#cfa205;
        text-align : center;
+       background-color:black;
+       width:1020px;
+       height:60px;
+       padding:0px;
+       margin:0px;
+       line-height:60px
+}
+.barre {text-align: center;
+        width:1020px;
+        height:60px;
+        background-color:#e8e8e8;
+        font-size:18px;
+        padding:0;
+        margin:0;
+        line-height:60px;
+      
 }
 
+.image {width:150px;
+        height:20px;
+        margin:center;
+}
 
+.info {width:900px;
+       height:90px;
+       color:#7a7a7a;
+       text-align:center;
+       padding:20px;
+       margin:0;
+       line-height:20px       
+}
 
-.colonne1 {float: left}
+.colonne1 {float: left;
+margin-left:60px;
+}
 img {width:260px;
      height:195px;}
 p {width:260px;
    height:480px;
-   color: #7a7a7a
+   color: #7a7a7a;
+   font-size :14px;
+   text-align: center;
 }
+h2{font-size :14px;
+   text-align: center;
+}
+
 
 .colonne2 {float: left;
- margin-left: 25px;
-    margin-right: 25px;}
+ margin-left:60px;
+    margin-right: 60px;}
 img {width:260px;
      height:195px;}
 p {width:260px;
    height:480px;
-   color: #7a7a7a
+   color: #7a7a7a;
+   font-size :14px;}
+h2{font-size :14px;
+   text-align: center;
 }
+
+
 
 .colonne3 {float: left;
+margin-right: 60px
 }
 img {width:260px;
      height:195px;}
 p {width:260px;
    height:480px;
-   color: #7a7a7a
+   color: #7a7a7a;
+   font-size :14px;}
+h2{font-size :14px;
+   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
