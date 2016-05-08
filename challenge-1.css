@@ -1,18 +1,20 @@
 html {
 	width: 1400px;
 	height: 1010px;
-	background-image: url(images/bg.jpg);
+	background-image: url("img/bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
 	background-size: cover;
+	margin: auto;
 }
 
 header {
-	margin: auto;
 	font-size: 15px;
 	width: 1020px;
 	height: 380px;
+	margin-bottom: -380px;
+	margin: auto;
 }
 
 #currentPage a {
@@ -76,4 +78,57 @@ h1 {
 	font-family: "Josefin Sans";
 	font-size: 133px;
 	margin-top: 60px;
+}
+
+#speech {
+	color: #7a7a7a;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	height: 90px;
+	width: 900px;
+	margin: 60px;
+}
+
+h2 {
+	color: #000000;
+	font-size: 18px;
+	text-align: left;
+} 
+
+body {
+	margin-top: 0px;
+	font-family:"Bitter";
+	background-color: white;
+	width: 1020px;
+	height: 1400px;
+	margin: auto;
+}
+
+#columns {
+	-moz-columns: 3;
+	-webkit-columns: 3;
+	columns: 3;
+	width: 900px;
+	height: 675px;
+}
+
+.column {
+	width: 260px;
+	height: 675px;
+}
+
+.p {
+	color: #7a7a7a;
+	font-size: 14px;
+	text-align: left;
+	height: 480px;
+}
+
+hr {
+	width: 900px;
+	height: 3px;
+	background-color: #E8E8E8;
+	border: none;
+	margin-bottom: 70px;
 }
