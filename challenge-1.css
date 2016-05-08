@@ -17,10 +17,6 @@ header {
 	margin: auto;
 }
 
-#currentPage a {
-	color: #CFA205;
-}
-
 #headerTop {
 	font-size: 18px;
 	background-color: #000000;
@@ -69,6 +65,10 @@ header {
 }
 
 .topMenuEntry a:hover,a:focus,a:active {
+	color: #CFA205;
+}
+
+#currentPage a {
 	color: #CFA205;
 }
 
